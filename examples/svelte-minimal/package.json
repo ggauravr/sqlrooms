@@ -1,0 +1,31 @@
+{
+  "name": "sqlrooms-svelte-minimal-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "dependencies": {
+    "@sqlrooms/duckdb": "workspace:*",
+    "@sqlrooms/room-config": "workspace:*",
+    "@sqlrooms/utils": "workspace:*",
+    "@sqlrooms/svelte-room-store": "workspace:*"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@tsconfig/svelte": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "tailwindcss": "^3.4.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.8.3",
+    "vite": "^5.0.0"
+  }
+} 
